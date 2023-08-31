@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Gotham+Pro:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gotham+Pro+Narrow:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import "./registration.css";
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-gotham-pro: "Gotham Pro";
+  --font-open-sans: "Open Sans";
+  --font-gotham-pro-narrow: "Gotham Pro Narrow";
+
+  /* font sizes */
+  --font-size-5xs: 8px;
+  --font-size-2xs-1: 10.1px;
+  --font-size-3xs-8: 9.8px;
+  --font-size-xs-8: 11.8px;
+  --font-size-3xs: 10px;
+  --font-size-smi: 13px;
+  --font-size-xs: 12px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --color-gray-100: #929292;
+  --color-gray-200: #1d2641;
+  --color-gray-300: #1e2136;
+  --color-gray-400: #131e38;
+  --color-white: #fff;
+  --color-mediumseagreen-100: #21d695;
+  --color-lightslategray: #818bac;
+  --color-silver: #c4c4c4;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-3xs: 10px;
+  --gap-smi: 13px;
+  --gap-25xl: 44px;
+  --gap-72xl: 91px;
+
+  /* Paddings */
+  --padding-8xs: 5px;
+
+  /* border radiuses */
+  --br-mini: 15px;
+  --br-3xs: 10px;
+  --br-11xs: 2px;
+  --br-10xs-9: 2.9px;
+  --br-smi-6: 12.6px;
+  --br-smi-3: 12.3px;
+}
