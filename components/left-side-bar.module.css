@@ -1,0 +1,140 @@
+.leftSideBarChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-300);
+  width: 222px;
+  height: 505px;
+}
+.artistName {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-mini);
+  width: 234px;
+  height: 176px;
+  object-fit: cover;
+}
+.artistNameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xs);
+}
+.friends {
+  position: relative;
+  line-height: 12.34px;
+  font-weight: 500;
+}
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-3xs);
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 12.34px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.releaseATrack {
+  position: absolute;
+  top: 0;
+  left: 23.8%;
+  line-height: 12.34px;
+  font-weight: 500;
+}
+.icon {
+  position: absolute;
+  height: 75.96%;
+  width: 12.34%;
+  top: 9.5%;
+  right: 87.66%;
+  bottom: 14.54%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.uploadTrackToStore {
+  position: absolute;
+  height: 41.3%;
+  width: 53.37%;
+  top: 31.37%;
+  right: 23.99%;
+  bottom: 27.33%;
+  left: 22.63%;
+}
+.vectorParent {
+  position: relative;
+  width: 149.98px;
+  height: 31.48px;
+  text-align: center;
+}
+.iconLogout {
+  position: absolute;
+  top: 1.23px;
+  left: 0;
+  width: 7.41px;
+  height: 7.41px;
+  overflow: hidden;
+}
+.logOut {
+  position: absolute;
+  top: 0;
+  left: 29.79%;
+  line-height: 9.88px;
+  font-weight: 500;
+}
+.btnLogout {
+  position: relative;
+  width: 45.58px;
+  height: 10px;
+}
+.settings {
+  position: relative;
+  line-height: 12.34px;
+  font-weight: 500;
+  text-align: center;
+}
+.bottomFuncs,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-72xl);
+}
+.frameParent {
+  position: absolute;
+  top: 15.14px;
+  left: 0;
+  height: 490px;
+  flex-direction: column;
+  gap: var(--gap-25xl);
+}
+.leftSideBar {
+  position: relative;
+  width: 222px;
+  height: 505px;
+  text-align: left;
+  font-size: var(--font-size-5xs);
+  color: var(--color-white);
+  font-family: var(--font-gotham-pro);
+}
