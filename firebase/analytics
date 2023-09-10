@@ -1,0 +1,13 @@
+import ua from 'universal-analytics';
+import { analytics } from 'firebase/analytics';
+
+export function getAnalytics(app) {
+  // Analytics
+  const visitor = ua('UA-XXXXXXXXX-X'); // Замените 'UA-XXXXXXXXX-X' на ваш код отслеживания Google Analytics
+ 
+  if (typeof window !== 'undefined' && analytics.isSupported()) {
+    // код инициализации аналитики
+  }
+}
+
+export default getAnalytics;
