@@ -1,0 +1,257 @@
+.child,
+.item {
+  position: absolute;
+  height: 21.43%;
+  width: 5.26%;
+  top: 39.29%;
+  right: 94.74%;
+  bottom: 39.29%;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+      180deg,
+      rgba(7, 87, 222, 0.8),
+      rgba(255, 171, 252, 0.33)
+    ),
+    #018cfd;
+  opacity: 0.5;
+}
+.item {
+  right: -5.26%;
+  left: 100%;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.inner {
+  height: 42.86%;
+  top: 28.57%;
+  right: 84.21%;
+  bottom: 28.57%;
+  left: 10.53%;
+  opacity: 0.6;
+}
+.child1,
+.child2,
+.inner,
+.rectangleDiv {
+  position: absolute;
+  width: 5.26%;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+      180deg,
+      rgba(7, 87, 222, 0.8),
+      rgba(255, 171, 252, 0.33)
+    ),
+    #018cfd;
+}
+.rectangleDiv {
+  height: 42.86%;
+  top: 28.57%;
+  right: 5.26%;
+  bottom: 28.57%;
+  left: 89.47%;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  opacity: 0.6;
+}
+.child1,
+.child2 {
+  height: 57.14%;
+  top: 21.43%;
+  right: 73.68%;
+  bottom: 21.43%;
+  left: 21.05%;
+  opacity: 0.7;
+}
+.child2 {
+  right: 15.79%;
+  left: 78.95%;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.child3 {
+  height: 78.57%;
+  top: 10.71%;
+  right: 63.16%;
+  bottom: 10.71%;
+  left: 31.58%;
+  opacity: 0.8;
+}
+.child3,
+.child4,
+.child5,
+.child6 {
+  position: absolute;
+  width: 5.26%;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+      180deg,
+      rgba(7, 87, 222, 0.8),
+      rgba(255, 171, 252, 0.33)
+    ),
+    #018cfd;
+}
+.child4 {
+  height: 78.57%;
+  top: 10.71%;
+  right: 26.32%;
+  bottom: 10.71%;
+  left: 68.42%;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  opacity: 0.8;
+}
+.child5,
+.child6 {
+  height: 100%;
+  top: 0;
+  right: 52.63%;
+  bottom: 0;
+  left: 42.11%;
+}
+.child6 {
+  right: 36.84%;
+  left: 57.89%;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.div,
+.div1,
+.div2 {
+  position: absolute;
+  height: 34.78%;
+  width: 5.35%;
+  top: 32.61%;
+  right: 94.65%;
+  bottom: 32.61%;
+  left: 0;
+}
+.div1,
+.div2 {
+  right: 59.15%;
+  left: 35.49%;
+}
+.div2 {
+  right: 23.66%;
+  left: 70.99%;
+}
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+  position: absolute;
+  height: 60.87%;
+  width: 5.35%;
+  top: 19.57%;
+  right: 88.73%;
+  bottom: 19.57%;
+  left: 5.92%;
+}
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+  right: 53.24%;
+  left: 41.41%;
+}
+.div5,
+.div6,
+.div7,
+.div8 {
+  right: 17.75%;
+  left: 76.9%;
+}
+.div6,
+.div7,
+.div8 {
+  height: 47.83%;
+  top: 26.09%;
+  right: 82.82%;
+  bottom: 26.09%;
+  left: 11.83%;
+}
+.div7,
+.div8 {
+  right: 47.32%;
+  left: 47.32%;
+}
+.div8 {
+  right: 11.83%;
+  left: 82.82%;
+}
+.div10,
+.div11,
+.div12,
+.div13,
+.div14,
+.div15,
+.div16,
+.div9 {
+  position: absolute;
+  height: 60.87%;
+  width: 5.35%;
+  top: 19.57%;
+  right: 76.9%;
+  bottom: 19.57%;
+  left: 17.75%;
+}
+.div10,
+.div11,
+.div12,
+.div13,
+.div14,
+.div15,
+.div16 {
+  right: 41.41%;
+  left: 53.24%;
+}
+.div11,
+.div12,
+.div13,
+.div14,
+.div15,
+.div16 {
+  right: 5.92%;
+  left: 88.73%;
+}
+.div12,
+.div13,
+.div14,
+.div15,
+.div16 {
+  right: 70.99%;
+  left: 23.66%;
+}
+.div13,
+.div14,
+.div15,
+.div16 {
+  right: 35.49%;
+  left: 59.15%;
+}
+.div14,
+.div15,
+.div16 {
+  right: 0;
+  left: 94.65%;
+}
+.div15,
+.div16 {
+  height: 100%;
+  top: 0;
+  right: 65.07%;
+  bottom: 0;
+  left: 29.58%;
+}
+.div16 {
+  right: 29.58%;
+  left: 65.07%;
+}
+.audio {
+  position: relative;
+  width: 710px;
+  height: 46px;
+}
